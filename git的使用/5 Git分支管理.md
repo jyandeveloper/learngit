@@ -44,6 +44,16 @@ $ git branch -d dev
 $ git log --graph --pretty=oneline --abbrev-commit
 ```
 
+6. 从远程分支pull下最新文件用下面的命令，从远程仓库获取最新版本并merge到本地
+```
+$ git pull origin master
+```
+
+7. 用下面的命令从远程分支上获取最新分支，但不会自动merge到本地
+```
+$ git fetch origin master
+```
+
 # 三、总结
 ```
 //创建并切换到dev分支
@@ -66,4 +76,10 @@ $ git branch -d dev
 
 //用带参数的git log查看分支的合并情况
 $ git log --graph --pretty=oneline --abbrev-commit
+
+//从远程分支上获取最新版本并merge到本地
+$ git pull origin master
+
+//从远程分支获取最新版本，不会自动merge到本地
+$ git fetch origin master
 ```
