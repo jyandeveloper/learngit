@@ -11,18 +11,18 @@
 $ git checkout -b dev
 ```  
 	
-    该命令与下列命令等价：
-	```
-	$ git branch dev
-	$ git checkout dev
-	```
+该命令与下列命令等价：
+```
+$ git branch dev
+$ git checkout dev
+```
 
-    可以用下面的命令查看当前分支，可以看出我们当前在dev分支上。
-	```
-	$ git branch
-	* dev
-	  master
-	```
+可以用下面的命令查看当前分支，可以看出我们当前在dev分支上。
+```
+$ git branch
+* dev
+master
+```
 
 2. 现在在dev分支上可对文件进行修改和提交（add和commit），几条好之后切换回master分支：
 ```
