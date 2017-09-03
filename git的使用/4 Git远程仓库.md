@@ -4,7 +4,7 @@
 $ ssh-keygen -t rsa -C "email@qq.com"
 ``` 
 
-    一路回车，不需要输入密码，最后成功在.ssh目录下生成id_rsa和id_rsa.pub两个文件，是SSH Key的密钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可放心地告诉他人。
+一路回车，不需要输入密码，最后成功在.ssh目录下生成id_rsa和id_rsa.pub两个文件，是SSH Key的密钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可放心地告诉他人。
 
 2. 登陆Github账号，点击头像 -> Settings -> SSH and GPG keys -> New SSH Key，填写一个合适的Title（任意填写），在Key文本框中粘贴id_rsa.pub文件的内容，最后点击Add SSH Key就可以在Github上添加一个Key。
 
@@ -19,14 +19,14 @@ $ ssh-keygen -t rsa -C "email@qq.com"
 $ git git remote add origin https://github.com/jyandeveloper/learngit.git
 ``` 
 	
-    添加好之后，远程库的名字就是origin，这是Git的默认叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
+添加好之后，远程库的名字就是origin，这是Git的默认叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
 
 3. 接着可以把本地库的所有内容push到远程库上，输入下面的命令，把当前master分支推送到远程。由于远程库是空的第一次push master分支时要加上-u参数，Git不但会把本地master分支的内容push到远程新的master分支上，还会把本地的master分支和远程的master分支关联起来，以后在push或pull时可简化命令。
 ```
 $ git push -u origin master
 ```
 
-    推送成功后，Github远程仓库的内容就和本地仓库内容一致了。从现在起，本地提交可用下面的命令：
+推送成功后，Github远程仓库的内容就和本地仓库内容一致了。从现在起，本地提交可用下面的命令：</br>
     ```
 	$ git push origin master
     ```
