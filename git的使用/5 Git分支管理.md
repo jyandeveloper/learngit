@@ -11,13 +11,13 @@
 $ git checkout -b dev
 ```  
 	
-	该命令与下列命令等价：
+    该命令与下列命令等价：
 	```
 	$ git branch dev
 	$ git checkout dev
 	```
 
-	可以用下面的命令查看当前分支，可以看出我们当前在dev分支上。
+    可以用下面的命令查看当前分支，可以看出我们当前在dev分支上。
 	```
 	$ git branch
 	* dev
@@ -67,24 +67,3 @@ $ git branch -d dev
 //用带参数的git log查看分支的合并情况
 $ git log --graph --pretty=oneline --abbrev-commit
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
