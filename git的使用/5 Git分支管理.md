@@ -21,7 +21,7 @@ $ git checkout dev
 ```
 $ git branch
 * dev
-master
+  master
 ```
 
 2. 现在在dev分支上可对文件进行修改和提交（add和commit），几条好之后切换回master分支：
