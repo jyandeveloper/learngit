@@ -27,9 +27,9 @@ $ git push -u origin master
 ```
 
 推送成功后，Github远程仓库的内容就和本地仓库内容一致了。从现在起，本地提交可用下面的命令：</br>
-    ```
-	$ git push origin master
-    ```
+```
+$ git push origin master
+```
 
 # 三、从远程库克隆
 1. 从远程库拉文件到本地可使用下面的命令：
