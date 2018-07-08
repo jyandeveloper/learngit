@@ -1,6 +1,2 @@
-test git modify second
+test git
 study git
-three add
-four add modify
-five add modify
-six add modify
