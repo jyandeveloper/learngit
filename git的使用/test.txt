@@ -4,3 +4,4 @@ this is my third modify.
 test 1 hhhhhhhhh
 test 2 safgiadjadm
 add add add add add
+compare pull and fetch
