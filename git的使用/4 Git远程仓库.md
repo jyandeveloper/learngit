@@ -8,7 +8,7 @@ $ ssh-keygen -t rsa -C "email@qq.com"
 
 2. 登陆Github账号，点击头像 -> Settings -> SSH and GPG keys -> New SSH Key，填写一个合适的Title（任意填写），在Key文本框中粘贴id_rsa.pub文件的内容，最后点击Add SSH Key就可以在Github上添加一个Key。
 
-3. Github允许添加多个Key。假设我有若干台电脑，我可以用公司电脑提交，也可以用家里的饿电脑提交。只要把每台电脑的Key都添加到Github上，就可以在每台电脑上往Github上提交了。
+3. Github允许添加多个Key。假设我有若干台电脑，我可以用公司电脑提交，也可以用家里的电脑提交。只要把每台电脑的Key都添加到Github上，就可以在每台电脑上往Github上提交了。
 
 # 二、添加远程库
 现在，我已经在本地创建了Git仓库，我想在Github上创建一个Git库，且让这两个库进行远程同步。
@@ -16,7 +16,7 @@ $ ssh-keygen -t rsa -C "email@qq.com"
 1. 登陆Github后，在页面找到New repository，创建一个新仓库，在Repository name里填入一个适当的名字（如：learngit），其他设置保持默认值，点击Create repository，就可以成功创建一个新的Git远程仓库。创建好这个仓库后，此时仓库是空的，我们可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后把本地的内容push到Github仓库。</br>
 2. 在本地learngit仓库下运行以下命令：
 ```
-$ git git remote add origin https://github.com/jyandeveloper/learngit.git
+$ git remote add origin https://github.com/jyandeveloper/learngit.git
 ``` 
 	
 添加好之后，远程库的名字就是origin，这是Git的默认叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
