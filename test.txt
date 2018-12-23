@@ -1,6 +1,0 @@
-test git modify
-study git
-add 3 line
-add 4 line
-add 5 line
-add dev branch
