@@ -1,4 +1,3 @@
-this is an open file
 2 commit
 3 commit
 4 commit
